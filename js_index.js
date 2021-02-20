@@ -7,6 +7,6 @@ function notifyMe() {
     document.getElementById("ptag").innerHTML += " SUCCESS"
 }
 
-window.onunload=function(){
-    i+=1
+window.onbeforeunload=function(){
+    return "Hai"
 }
